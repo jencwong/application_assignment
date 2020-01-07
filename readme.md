@@ -28,15 +28,15 @@ Please include the url to your forked repository with the fixed webserver in you
 [My repo url](https://github.com/jencwong/application_assignment)
 
 The steps I took:
-- Fork the repo
-- Clone the repo locally
+- Forked the repo
+- Cloned the repo locally
 - Discovered that the npm start was not working because the script was missing.  
 - Added "start": "node index.js" to scripts in package.json
-- Install the npm package that is missing to run the random movie quotes npm i random-movie-quotes 
-- Add this dependency to index.js: const quotes = require("random-movie-quotes");
-- Save the file and run it with npm start
-- Open the browswer to http://localhost:3000/
-- Each time we refresh the browser a new movie quote should show up
+- Installed the npm package that is missing to run the random movie quotes npm i random-movie-quotes 
+- Added this dependency to index.js: const quotes = require("random-movie-quotes");
+- Saved the file and run it with npm start
+- Opened the browswer to http://localhost:3000/
+- Each time we refreshed the browser a new movie quote should show up
 - Git add, commit and push the changes to my master branch
 
 ## References
